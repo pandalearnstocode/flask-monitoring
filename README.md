@@ -41,7 +41,7 @@ SECURITY_TOKEN=cc83733cb0af8b884ff6577086b87909
 
 [database]
 TABLE_PREFIX=fmd
-DATABASE=sqlite:////app/fmd.db
+DATABASE=sqlite:////./fmd.db
 
 [visualization]
 TIMEZONE=Europe/Amsterdam
