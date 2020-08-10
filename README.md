@@ -50,5 +50,5 @@ COLORS={'main':'[0,97,255]',
 ```
 
 ## Resources:
-[Docker image](https://github.com/tiangolo/meinheld-gunicorn-flask-docker)
-[Flask Monitoring Dashboard](https://medium.com/flask-monitoringdashboard-turtorial/monitor-your-flask-web-application-automatically-with-flask-monitoring-dashboard-d8990676ce83)
+* [Docker image](https://github.com/tiangolo/meinheld-gunicorn-flask-docker)
+* [Flask Monitoring Dashboard](https://medium.com/flask-monitoringdashboard-turtorial/monitor-your-flask-web-application-automatically-with-flask-monitoring-dashboard-d8990676ce83)
