@@ -25,7 +25,7 @@ dashboard.bind(app)
 ```
 [dashboard]
 APP_VERSION=1.0
-GIT=https://github.com/pandalearnstocode/flask-monitoring.git
+GIT=./.git/
 CUSTOM_LINK=dashboard
 MONITOR_LEVEL=3
 OUTLIER_DETECTION_CONSTANT=2.5
@@ -48,6 +48,10 @@ TIMEZONE=Europe/Amsterdam
 COLORS={'main':'[0,97,255]',
         'static':'[255,153,0]'}
 ```
+
+
+
+__Note:__ Even if we do not create or supply any db in the app, it will create a db by itself called `sqlite:///flask_monitoringdashboard.db` and will store all the metadata required for dashboard and will store in `fmd` table in the above mentioned database.
 
 ## Resources:
 * [Docker image](https://github.com/tiangolo/meinheld-gunicorn-flask-docker)
