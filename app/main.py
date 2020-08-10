@@ -4,7 +4,7 @@ from flask import Flask
 import flask_monitoringdashboard as dashboard
 
 app = Flask(__name__)
-dashboard.config.init_from(file='/app/config.cfg')
+dashboard.config.init_from(file='/config.cfg')
 dashboard.bind(app)
 
 @app.route("/")
